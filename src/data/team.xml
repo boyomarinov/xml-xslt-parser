@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="team.xsl"?>
+<team name="IT">
+	<country name="BG">
+		<dev>
+			<name>Ivan</name>
+			<image>src/data/avatar.png</image>
+			<knows>smth</knows>
+		</dev>
+		<dev>
+			<name>Gosho</name>
+			<image>src/data/avatar.png</image>
+			<knows>smth</knows>
+		</dev>
+		<dev>
+			<name>Mariika</name>
+			<image>src/data/avatar.png</image>
+			<knows>smth</knows>
+		</dev>
+	</country>
+  	<country name="UK">
+		<dev>
+			<name>John</name>
+			<image>src/data/avatar.png</image>
+			<knows>smth</knows>
+		</dev>
+		<dev>
+			<name>George</name>
+			<image>src/data/avatar.png</image>
+			<knows>smth</knows>
+		</dev>
+		<dev>
+			<name>Merry</name>
+			<image>src/data/avatar.png</image>
+			<knows>smth</knows>
+		</dev>
+	</country>
+</team>

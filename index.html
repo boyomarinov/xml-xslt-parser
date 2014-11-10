@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>XML Parser</title>
+	<script src="src/js/xslt.js"></script>
+	<script src="src/js/filesaver.js"></script>
+	<script src="src/js/app.js"></script>
+</head>
+<body>
+	<div id="main-container">
+		<div>
+			<input type="text" id="xml-filepath" />
+			<input type="text" id="xsl-filepath" />
+			<button id="load-preview">Load preview</button>
+		</div>
+		<div>
+			<textarea id="xml-preview" readonly rows="20" cols="50"></textarea>
+			<textarea id="xsl-preview" readonly rows="20" cols="50"></textarea>
+		</div>
+		<div>
+			<button id="generate-html">Generate HTML</button>
+			<label>Filename: <input type="text" id="html-filename" placeholder="output" />.html</label>
+			<button id="export-html">Export HTML</button>
+		</div>
+	<div>
+	<hr />
+	<div id="result-container"></div>
+</body>	
+</html>
